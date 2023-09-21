@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{box-sizing: border-box; margin: 0; padding: 0; overflow: hidden;}
+		body{overflow-x: hidden; overflow-y: hidden;}
+		.section1
+		{	
+			height:38vh; width:100%;  background-repeat: no-repeat; background: url("skye.JPG"); background-size: 100% 100%; 
+		}
+		.section1b{position: absolute; width: 100%; height: 2vh; transform: translate(0px, -10px); background-color:#58F758;}
+		div.section1 img#aeroplane { position:relative; z-index: 1; animation:aeroplane 2s 0s linear backwards infinite ;}
+		div.section1 img#illustration_scene{ transform: translate(0px, -120px); width: 99.9%;}
+	
+		@keyframes aeroplane 
+		{ 	from { transform: translate(1200px, 5px );} 
+			to { transform: translate( -200px, 5px);}	
+		}
+		
+		#helicopter {position:relative; animation:helicopter 5s 1s linear backwards infinite;width:15%;}
+		@keyframes helicopter 
+		{
+			from { transform: translate(1200px, -390px)}
+			to { transform: translate(-200px, -390px);}
+		}
+		
+		#man{position: absolute; width: 10%; animation: man 5s 5s linear backwards infinite; z-index: 1; }
+		@keyframes man 
+		{
+			from { transform: translate(1200px, -260px)}
+			to { transform: translate(-300px, -260px);}
+		}
+
+		#woman{position: absolute; width:10%; animation: woman 6s 0s linear forwards infinite; z-index: 2;}
+		@keyframes woman 
+		{
+			from { transform: translate(-300px, -250px)}
+			to { transform: translate(1070px, -250px);}
+		}
+
+		.section2
+		{
+			background: url("road.JFIF"); background-size: 100% 100%; background-repeat: no-repeat;
+			width: 100%; height: 25vh;
+		}
+
+		div.section2 img#yellow_taxi { position: relative; z-index: 1; width: 15%; animation: taxi 5s 0.2s linear backwards infinite;}
+		@keyframes taxi
+		{
+			from { transform: translate(1450px, -30px)}
+			to { transform: translate(-300px, -30px);}
+		}
+
+		div.section2 img#bike {position: relative; animation: bike 3s 0.5s linear backwards infinite;}
+		@keyframes bike 
+		{
+			from { transform: translate(1000px, -75px)}
+			to { transform: translate(-300px, -75px);}	
+		}
+
+		div.section2 img#truck{position: relative; animation:truck 6s 0.1s linear backwards infinite; width: 200px;}
+		@keyframes truck
+		{
+			from { transform: translate(1450px, 45px); }
+			to { transform: translate(-300px, 45px);}
+		}
+
+		.section3{ width:100%; height: 9vh; background-color: #313030; color: white; }
+		.section3 img.img1 {height:17vh; transform: translate( 250px, -80px); position:absolute; z-index: 1}
+		.section3 img.img2 { position:absolute; height:28vh; width: 20vh; transform: translate( 270px, -130px); }
+		.section3 img.img3 {height:17vh; transform: translate( 600px, -80px); position: absolute; }
+		.section3 img.img4 {height:17vh; transform: translate( 950px, -80px); position: absolute; }
+		.section3 img.img5 {height:28vh; transform: translate( 1200px, -130px); position: absolute; }	
+
+		.section4{ background:url("road.JFIF"); background-size: 100% 100%; background-repeat: no-repeat; width: 100%; height: 25vh; }
+		div.section4 img#sport_car{position: relative; animation: sportcar 1.5s 0.1s linear forwards infinite ; width: 200px;}
+		@keyframes sportcar
+		{
+			from{transform: translate(0px, -110px );}
+			to{transform: translate(1100px, -110px);}
+		}
+
+		div.section4 img#yellow_cab{position: relative; animation: yellow_cab 3.5s 0.1s linear forwards infinite ; width: 200px;}
+		@keyframes yellow_cab
+		{
+			from{transform: translate(0px, 10px );}
+			to{transform: translate(1100px, 10px);}
+		}
+
+		div.section4 img#yellow_truck{position: relative; width: 200px; animation:yellow_truck 6s  linear forwards infinite;}
+		@keyframes yellow_truck
+		{
+			from{transform: translate(10px, 40px);}
+			to{transform: translate(1100px, 40px);}
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="section1"> 
+		<img id="aeroplane" src="Aeroplane_2-removebg-preview.png"> 
+		<img id="illustration_scene" src="ilustrasion-scene.PNG"> 
+		<img id="helicopter" src="air-helicopter-removebg-preview.PNG">
+		<img id="man" src="man_walking.PNG">
+		<img id="woman" src="woman.PNG">
+	</div>
+	<div section 1a> 
+		 
+	</div>
+	<div class="section1b"> </div>
+	<div class="section2" > 
+		<img id="yellow_taxi" src="yellow_taxi.PNG" > 
+		<img id="bike" src="bike.PNG">
+		<img id="truck" src="truck.PNG">
+	</div>
+
+	<div class="section3" > 
+		<img class="img1" src="street_light.PNG"> 
+		<img class="img2" src="one_way-removebg-preview.PNG"> 
+		<img class="img3" src="street_light.PNG">
+		<img class="img4" src="street_light.PNG">
+		<img class="img5" src="one_way-removebg-preview.PNG">
+	</div>
+
+	<div class="section4"> 
+		<img id="sport_car" src="sport car.PNG" >
+		<img id="yellow_truck" src="yellow_truck.PNG">
+		<img id="yellow_cab" src="yellow_can.PNG">
+	</div>
+
+	<div class="section5"> </div>
+	<div class="section6"> </div>
+
+	<div class="section7"> </div>
+	<div class="section8"> </div>
+	<div class="section9"> </div>
+	<div class="section10"> </div>
+
+</body>
+</html>
